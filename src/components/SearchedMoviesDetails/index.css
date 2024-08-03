@@ -1,0 +1,9 @@
+.search-main-container {
+  background-image: linear-gradient(to right, #eeb86d, #466ab3);
+  padding: 1px;
+  height: 100vh;
+}
+
+.empty-search {
+  display: none;
+}

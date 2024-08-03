@@ -1,0 +1,24 @@
+.main-container {
+  background-image: linear-gradient(to right, #eeb86d, #466ab3);
+  padding: 1px;
+}
+
+.movie-list-main-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.movies-list-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}

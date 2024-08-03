@@ -1,0 +1,103 @@
+.each-movie-details-container {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.movie-img {
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.movie-detail {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.movie-details-main-container {
+  margin-left: 10px;
+}
+
+.movie-name {
+  font-family: 'Roboto';
+}
+
+.movie-genres-container {
+  display: flex;
+  padding-left: 0px;
+}
+
+.genre-heading {
+  margin-top: 0px;
+  align-items: center;
+  font-family: 'Roboto';
+  margin-right: 3px;
+  padding-left: 0px;
+  font-weight: 500;
+}
+
+.genre-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+  list-style-type: none;
+  margin-right: 5px;
+  margin-top: 1px;
+}
+
+.detail-heading {
+  font-weight: 500;
+}
+
+.movie-detail {
+  margin-top: 0px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000000;
+}
+
+.cast-details-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+.movie-cast-details-container {
+  padding: 5px;
+}
+
+.movie-cast-details-list-container {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-cast-details-list {
+  list-style-type: none;
+  width: 30vw;
+  background-color: antiquewhite;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.profile-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  height: 170px;
+  width: 170px;
+}
+
+.name {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 14px;
+}
+
+.name-heading {
+  font-weight: 500;
+}

@@ -1,0 +1,57 @@
+.movie-item-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 25vw;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.movie-item-image {
+  border-radius: 4px;
+  height: 340px;
+}
+
+.movie-title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #000000;
+}
+
+.movie-rating {
+  font-family: 'Roboto';
+  font-size: 15px;
+  text-align: start;
+  margin-top: 0px;
+  color: #000000;
+}
+
+.view-details-btn-container {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 0px;
+}
+
+.view-details-btn {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 35px;
+  font-size: 13px;
+  background-color: whitesmoke;
+  font-family: 'Roboto';
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.movie-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-heading {
+  font-weight: 500;
+}
