@@ -1,8 +1,6 @@
 import {useState} from 'react'
 import {Link, withRouter} from 'react-router-dom'
 
-import {HiOutlineSearch} from 'react-icons/hi'
-
 import './index.css'
 
 const NavBar = props => {
@@ -46,7 +44,7 @@ const NavBar = props => {
               className="search-box-icon"
               onClick={onClickSearchBoxIcon}
             >
-              <HiOutlineSearch />
+              Search
             </button>
           </div>
         </div>
@@ -56,7 +54,7 @@ const NavBar = props => {
       <div>
         <Link to="/search" className="search-bar-link-item">
           <button type="button" className="empty-search-icon">
-            <HiOutlineSearch />
+            Search
           </button>
         </Link>
       </div>
